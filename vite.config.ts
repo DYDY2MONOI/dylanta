@@ -24,6 +24,8 @@ export default defineConfig({
         entryFileNames: 'assets/[name]-[hash].js'
       }
     }
-  }
+  },
+  publicDir: 'public',
+  assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg', '**/*.webp', '**/*.avif']
 })
 
