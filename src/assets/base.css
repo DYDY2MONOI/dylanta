@@ -1,0 +1,60 @@
+/* Vercel-inspired dark theme */
+:root {
+  --color-background: #000000;
+  --color-background-soft: rgba(17, 17, 17, 0.8);
+  --color-background-mute: rgba(26, 26, 26, 0.9);
+
+  --color-border: #333333;
+  --color-border-hover: #444444;
+
+  --color-heading: #ffffff;
+  --color-text: #a3a3a3;
+  --color-text-muted: #666666;
+
+  --color-accent: #ffffff;
+  --color-accent-hover: #f0f0f0;
+
+  --section-gap: 120px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
